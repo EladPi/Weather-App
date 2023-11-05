@@ -32,8 +32,8 @@ This Weather App is a React-based application that provides comprehensive weathe
 1. **Clone the Repository**: 
 
     ```bash
-    git clone [repository-link]
-    cd [repository-name]
+    git clone https://github.com/EladPi/Weather-App
+    cd Weather-App
     ```
 
 2. **Install Dependencies**:
@@ -65,22 +65,9 @@ This Weather App is a React-based application that provides comprehensive weathe
 
 ---
 
-### Contribution
-
-Contributions, issues, and feature requests are always welcome! Please check the [issues page](link-to-your-issues-page) for any pending topics.
-
----
-
-### License
-
-This app is distributed under the MIT License. For more details, see the `LICENSE` file.
-
----
-
 ### Acknowledgments
 
-- A huge thanks to [WeatherApi.com](https://www.weatherapi.com/) for supplying the rich weather data that powers this app.
-- Gratitude to the React community and every contributor to the libraries and tools utilized in this project.
+- The weather data is from [WeatherApi.com](https://www.weatherapi.com/) API.
 
 ---
 
