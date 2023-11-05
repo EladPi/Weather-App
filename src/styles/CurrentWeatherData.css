@@ -1,0 +1,28 @@
+.currentweatherdata-secondary-div {
+    background: rgba(255, 255, 255, 0.40);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    padding: 5px;
+    height: 150px;
+}
+
+
+.currentweatherdata-secondary-div div {
+    display: flex;
+    column-gap: 5px;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+
+.currentweatherdata-secondary-div span {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.uv-p {
+    text-align: center;
+    margin-top: -3px;
+}

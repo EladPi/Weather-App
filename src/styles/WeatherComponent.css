@@ -1,0 +1,122 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.general-div {
+    height: 100vh;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.city-input,
+.submit-button {
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+}
+
+.city-input {
+    width: 70%;
+    padding: 8px 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.submit-button {
+    padding: 8px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.default-current-hour-data {
+    background: rgba(255, 255, 255, 0.40);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    width: fit-content;
+    margin: 70px auto 40px auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.daily-hourly-data-outer-div {
+    padding-top: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    margin-bottom: 30px;
+}
+
+.outer-div {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.data-div {
+    display: inline-block;
+    background-color: #FFF;
+    width: 1.99rem;
+    height: 120px;
+    padding: 5px;
+    font-size: 0.8em;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.data-div img {
+    width: 25px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: 0.7em;
+    position: relative;
+    top: -20px;
+    text-align: left;
+    margin-left: 5px;
+
+
+}
+
+.scrollable-data-main-div {
+    flex-grow: 1;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scrollable-data-main-div::-webkit-scrollbar,
+.outer-div::-webkit-scrollbar {
+    display: none;
+}
+
+.currentweatherdata-main-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+ 
