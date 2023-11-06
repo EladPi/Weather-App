@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 const API_KEY = 'c1bce46ec695457abac122001232910'; // Replace with API key from weatherapi.com
 //const API_KEY = ''; // Replace with API key from weatherapi.com
+=======
+const API_KEY = ''; // Replace with API key from weatherapi.com
+>>>>>>> 2a81a442ca8ca226645703e4244fe07600345bee
 const BASE_URL = 'http://api.weatherapi.com/v1';
 
 
