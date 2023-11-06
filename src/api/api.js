@@ -1,5 +1,5 @@
 const API_KEY = 'c1bce46ec695457abac122001232910'; //  with API key from weatherapi.com
-const BASE_URL = 'http://api.weatherapi.com/v1';
+const BASE_URL = 'https://api.weatherapi.com/v1';
 
 
 export const getWeeklyForecast = async (city) => {
