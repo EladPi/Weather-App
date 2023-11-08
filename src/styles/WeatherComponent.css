@@ -4,11 +4,10 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    padding-bottom: env(safe-area-inset-bottom);
 }
 
 .general-div {
-    max-height: 100vh;
+    height: 100vh;
     margin: 0 auto;
     padding: 10px;
     display: flex;
@@ -115,9 +114,7 @@ body {
     overflow-y: auto;
     flex-grow: 1;
     scroll-behavior: smooth;
-    padding-bottom: 20px;
-    height: calc(100vh-var(--top-offset,0px));
-    padding-bottom: env(safe-area-inset-bottom);
+    max-height: 45%;
 
 }
 
