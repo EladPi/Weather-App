@@ -12,6 +12,7 @@ body {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    max-width: 399px;
 }
 
 .city-input,
@@ -43,7 +44,7 @@ body {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.23);
     width: fit-content;
-    margin: 70px auto 40px auto;
+    margin: 20px auto 0px auto;
     padding: 20px;
     text-align: center;
     font-size: 1.3em;
@@ -56,6 +57,12 @@ body {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.23);
     margin-bottom: 30px;
+    
+}
+
+.weathercomponent-outer-weekly-div{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .outer-div {
@@ -65,7 +72,7 @@ body {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
     padding-left: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .data-div {
@@ -84,7 +91,7 @@ body {
 }
 
 .data-div img {
-    width: 25px;
+    width: 35px;
 }
 
 .error {
@@ -100,13 +107,13 @@ body {
 }
 
 .scrollable-data-main-div {
-    flex-grow: 1;
     overflow-y: auto;
     scroll-behavior: smooth;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 .scrollable-data-main-div::-webkit-scrollbar,

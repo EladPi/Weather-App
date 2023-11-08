@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { getHourlyForecast, getWeeklyForecast } from '../api/api';
 import HourlyWeather from './HourlyWeather';

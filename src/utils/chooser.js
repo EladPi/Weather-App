@@ -13,7 +13,7 @@ export const assentChooser = (text, p = 1, type= 'icon') => {
             iconResult = iconData.day.clear.day;
             backGroundResult = backGroundData.day.clear;
         }
-        else if (text.toLowerCase().includes('fog')) {
+        else if (text.toLowerCase().includes('fog') || text.toLowerCase().includes('mist')) {
             iconResult = iconData.day.fog.fog;
             backGroundResult = backGroundData.day.fog;
         }
@@ -64,7 +64,7 @@ export const assentChooser = (text, p = 1, type= 'icon') => {
             iconResult = iconData.night.cloudy["cloudy-night-2"]
             backGroundResult = backGroundData.night.clear;
         }
-        else if (text.toLowerCase().includes('fog')) {
+        else if (text.toLowerCase().includes('fog') || text.toLowerCase().includes('mist')) {
             iconResult = iconData.night.fog.fog;
             backGroundResult = backGroundData.night.fog;
         }
