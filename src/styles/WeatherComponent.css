@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    height: 100vh;
 }
 
 .general-div {
@@ -20,10 +21,12 @@ body {
     border-radius: 8px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     align-self: flex-start;
+    
 }
 
 .input-submit-div {
     margin-bottom: 10px; /* adjust as needed */
+    position: static;
 }
 
 .city-input {
@@ -114,7 +117,7 @@ body {
     overflow-y: auto;
     flex-grow: 1;
     scroll-behavior: smooth;
-    max-height: 45%;
+    border-radius: 8px;
 
 }
 
