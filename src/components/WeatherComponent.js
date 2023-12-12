@@ -13,6 +13,7 @@ function WeatherComponent() {
     const [weeklyWeatherData, setWeeklyWeatherData] = useState(null);
     const [error, setError] = useState(null);
 
+
     //To get the device's location.
     useEffect(() => {
         const fetchInitialWeatherData = async () => {

@@ -1,19 +1,20 @@
 body {
     font-family: 'Varela Round', sans-serif;
-    background-color: #f4f4f4;
+    background-color: transparent;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    height: 100vh;
 }
 
 .general-div {
     height: 100vh;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    max-width: 430px;
+    max-width: 800px;
+    padding-bottom: 50px;
 }
 
 .city-input,

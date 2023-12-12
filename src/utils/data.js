@@ -48,20 +48,20 @@ export const iconData = {
 
 export const backGroundData ={
     day:{  
-        'clear' : '/assents/clear-day.jpg',
-        'cloudy' : '/assents/cloudy-day.jpg',
+        'clear' : '/assents/clear-day.png',
+        'cloudy' : '/assents/cloudy-day.png',
         'heavy-rain' : '/assents/heavy-rain.png',
-        'snow-day' : '/assents/snow-day.jpg',
-        'storm' : '/assents/storm.jpg',
-        'fog' : '/assents/fog.jpg'
+        'snow-day' : '/assents/snow-day.png',
+        'storm' : '/assents/storm.png',
+        'fog' : '/assents/fog.png'
     },
 
     night:{
-        'clear' : '/assents/clear-night.jpg',
-        'cloudy' : '/assents/cloudy-night.jpg',
+        'clear' : '/assents/clear-night.png',
+        'cloudy' : '/assents/cloudy-night.png',
         'heavy-rain' : '/assents/heavy-rain.png',
         'snow-day' : '/assents/snow-night.png',
-        'storm' : '/assents/storm.jpg',
-        'fog' : '/assents/fog.jpg'
+        'storm' : '/assents/storm.png',
+        'fog' : '/assents/fog.png'
     }
 }
